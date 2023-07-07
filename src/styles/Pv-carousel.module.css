@@ -1,0 +1,57 @@
+#drag-ghost {
+  width: 0;
+  height: 0;
+  position: absolute;
+  background: #0000;
+}
+.pv_carousel {
+  /* overflow: scroll; */
+  overflow: hidden;
+  width: 100%;
+}
+.pv_caro_vertical {
+  height: 100%;
+}
+.pv_carousel::-webkit-scrollbar {
+  display: none;
+}
+.pv_card {
+  user-select: none !important;
+}
+.pv_grab {
+  cursor: grab;
+}
+.pv_grabbing {
+  cursor: grabbing;
+}
+.pv_container {
+  width: max-content;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+.pv_container_vertical {
+  width: auto;
+  height: max-content;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.pv_dots {
+  display: flex;
+  gap: 10px;
+  width: max-content;
+  margin: 0 auto;
+}
+.pv_dot {
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  background: rgb(196, 196, 196);
+  cursor: pointer;
+  opacity: 0.5;
+}
+.pv_opacity {
+  opacity: 1;
+}
